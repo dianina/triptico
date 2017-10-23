@@ -1,10 +1,98 @@
+body {
+ 	  font-size: 16px;
+    line-height: 1.71429;
+    font-weight: normal;
+    font-family: times new roman, Helvetica, 
+                Arial, sans-serif;
+}
+
 #encabezado {
-	width: 800px;
-	height: 30px; 
+	 width: 832px;
+	 height: 30px; 
     background-color:#FFC107;
     text-align:center;
    	float: left;
-   	border: 1px solid #555;
+   	border: 1px solid #000;
    	margin-left: 200px;
+   	margin-top: 0px;
+   	position: relative;
+  
+}
+
+#caja1{
+	width: 230px;
+	height: 450px; 
+  background-color:#FFF;
+  text-align:center;
+  position: absolute;
+  float: left;
+  border: 1px solid #000;
+  margin-top: 31px;
+  margin-left: 200px;
+}
+#caja1 h3 {
+  font-size: 15px;
+}
+
+#caja1 p {
+  margin: 10px;
+  margin-top: -40px;
+}
+
+#monopoly_img{
+  margin-top: 15px;
+  text-align: center;
 
 }
+
+#caja2{
+  width: 350px;
+  height: 450px; 
+  background-color:#FFF;
+  position: absolute;
+  float: left;
+  border: 1px solid #000;
+  margin-top: 31px;
+  margin-left: 431px;
+  text-align: justify;
+}
+
+#caja2 h3 {
+  font-size: 16px;
+}
+
+#caja2 p {
+  margin: 10px;
+  margin-top: -40px;
+}
+
+#caja3{
+  width: 250px;
+  height: 450px; 
+  background-color:#FFF;
+  text-align:center;
+  position: absolute;
+  float: left;
+  border: 1px solid #000;
+  margin-top: 31px;
+  margin-left: 782px;
+}
+ #caja3 p {
+  margin: 10px;
+  margin-top: -40px;
+ }
+
+#imagen3_img{
+  margin-top: 15px;
+  text-align: center;
+}
+
+#footer {
+   width: 832px;
+   height: 30px; 
+    background-color:#FFC107;
+    text-align:center;
+    border: 1px solid #000;
+    margin-left: 200px;
+    margin-top: 481px;
+    position: absolute;
